@@ -1,0 +1,21 @@
+.calculator-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.button {
+    text-align: center;
+    font-size: 20px;
+}
+
+.wide-button {
+    text-align: center;
+    font-size: 20px;
+    grid-column: span 2;
+}
+
+.screen {
+    font-size: 25px;
+    grid-column: span 4;
+}
